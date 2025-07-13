@@ -570,7 +570,7 @@
         <mxCell id="wRJgcbm26dwJDgL0D8fA-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-66" target="wRJgcbm26dwJDgL0D8fA-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="Redis名额回滚+1、删除数组中的id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="数据不一致：重新设置余额、删除数组中的id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1150" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-69" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
