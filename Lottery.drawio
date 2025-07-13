@@ -570,7 +570,7 @@
         <mxCell id="wRJgcbm26dwJDgL0D8fA-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-66" target="wRJgcbm26dwJDgL0D8fA-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="数据不一致：重新设置余额、删除数组中的id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="数据不一致：重新设置余额、id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="1150" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-69" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
@@ -790,7 +790,7 @@
         <mxCell id="_h6KlXoXIHhsakf5hKVm-75" value="重试" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1400" y="130" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_h6KlXoXIHhsakf5hKVm-82" value="删除Redis数组中的id、余额+1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_h6KlXoXIHhsakf5hKVm-82" value="数据不一致：重新设置余额、id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1490" y="900" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-84" value="数据不一致：重新设置余额" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
