@@ -861,7 +861,7 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-17" value="查询活动缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="354" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-18" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="930" y="210" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-17" target="Nk35_k-qlWwxHkbwLgX0-18">
