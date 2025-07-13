@@ -477,7 +477,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-32" value="活动时间是否还有效&lt;br&gt;剩余名额是否充足（先简单判断）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-32" value="活动时间是否还有效&lt;br&gt;剩余名额是否充足（先简单判断，但是不保证一定正确）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="260" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-34" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
