@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.3" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.3" pages="8">
   <diagram name="第 1 页" id="y_7-ha-_LCKQCejl0iwg">
     <mxGraphModel dx="1034" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -795,6 +795,176 @@
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-84" value="数据不一致：重新设置余额" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1200" y="900" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VnnQeaFldTDwhN4YrL9S" name="第 8 页">
+    <mxGraphModel dx="1034" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="660" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="528" y="200" width="312" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="139" y="410" width="541" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-1" value="用户投票" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="361" y="20" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-2" target="Nk35_k-qlWwxHkbwLgX0-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="494" y="150" as="sourcePoint" />
+            <mxPoint x="410" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-13" value="businessId、activityId、voteOptionId" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-12">
+          <mxGeometry x="-0.44" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-2" value="用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-4" value="Redis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="139" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-11" target="Nk35_k-qlWwxHkbwLgX0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-16" value="无效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-15">
+          <mxGeometry x="-0.081" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-11" target="Nk35_k-qlWwxHkbwLgX0-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-36" value="有效" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-25">
+          <mxGeometry x="-0.608" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-11" value="判断活动是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-14" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-17" target="Nk35_k-qlWwxHkbwLgX0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-17" value="查询活动缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="930" y="210" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-17" target="Nk35_k-qlWwxHkbwLgX0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-21" value="不存在，则查数据库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-19">
+          <mxGeometry x="-0.1407" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=52.5;exitPerimeter=0;entryX=0.973;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-18" target="Nk35_k-qlWwxHkbwLgX0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-22" value="活动基本信息、选项基本信息（包括数量）、选项投票人id数组" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-20">
+          <mxGeometry x="0.0627" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-24" target="Nk35_k-qlWwxHkbwLgX0-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-28" value="存在于该选项的id数组" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-27">
+          <mxGeometry x="-0.2073" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-24" target="Nk35_k-qlWwxHkbwLgX0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-31" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-30">
+          <mxGeometry x="-0.1733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-24" value="判断是否投过票了" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="344" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-26" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="146" y="462.5" width="64" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-29" target="Nk35_k-qlWwxHkbwLgX0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-29" value="插入选项id数组&lt;br&gt;发送异步消息" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="308" y="570" width="211" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-32" target="Nk35_k-qlWwxHkbwLgX0-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-32" value="消费者接收消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="354" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-35" value="分布式锁（用户businessid）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="420" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-37" value="保证每个人对于同一个选项只能投一票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="264" y="990" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-38" target="Nk35_k-qlWwxHkbwLgX0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-43" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-42">
+          <mxGeometry x="-0.1118" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="840" y="840" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-38" target="Nk35_k-qlWwxHkbwLgX0-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-46" value="存在，说明出问题了，缓存和数据库记录不一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-45">
+          <mxGeometry x="-0.3067" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-38" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;检查该选项的投票记录&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="307" y="870" width="214" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-41" target="Nk35_k-qlWwxHkbwLgX0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-41" value="插入记录、增加选项投票数" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="880" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-44" value="重新缓存选项基本信息、选项投票人id数组" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-49" value="更新Redis中缓存的投票数" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="880" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-52" value="分布式锁（选项id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-54" value="分布式锁（选项id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="494" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-58" value="分布式锁（活动id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
