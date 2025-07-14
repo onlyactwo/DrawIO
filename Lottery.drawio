@@ -465,7 +465,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_h6KlXoXIHhsakf5hKVm-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="280" y="960" width="240" height="120" as="geometry" />
+          <mxGeometry x="280" y="960" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="90" y="320" width="640" height="380" as="geometry" />
@@ -511,7 +511,7 @@
         <mxCell id="wRJgcbm26dwJDgL0D8fA-2" value="检查Redis中报名id记录数组" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="305" y="450" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-5" value="释放锁、报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-5" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-17" target="_h6KlXoXIHhsakf5hKVm-1" edge="1">
@@ -545,10 +545,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-45" value="名额&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-45" value="剩余名额&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="345" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-47" value="释放锁、报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-47" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="355" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wRJgcbm26dwJDgL0D8fA-53" target="wRJgcbm26dwJDgL0D8fA-57" edge="1">
@@ -588,14 +588,8 @@
         <mxCell id="wRJgcbm26dwJDgL0D8fA-63" value="插入/重启记录" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="840" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-66" target="wRJgcbm26dwJDgL0D8fA-69" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="数据不一致：重新设置余额、id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="990" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wRJgcbm26dwJDgL0D8fA-69" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="990" width="120" height="60" as="geometry" />
+        <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="数据不一致：重新设置余额、参与者id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="295" y="990" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_h6KlXoXIHhsakf5hKVm-1" target="wRJgcbm26dwJDgL0D8fA-24" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -626,7 +620,7 @@
         <mxCell id="_h6KlXoXIHhsakf5hKVm-6" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="105" width="100" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="_h6KlXoXIHhsakf5hKVm-15" value="分布式锁（id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_h6KlXoXIHhsakf5hKVm-15" value="lua脚本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="960" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-16" value="用户取消参与（活动）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
