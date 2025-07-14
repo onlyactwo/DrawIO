@@ -1178,20 +1178,23 @@
         <mxCell id="i3vyW04hpl56Oku0v8cF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i3vyW04hpl56Oku0v8cF-1" target="g9SD_NuLVpswSmovvRsM-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i3vyW04hpl56Oku0v8cF-5" value="ParticipantIds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="800" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="i3vyW04hpl56Oku0v8cF-6" value="参与者的ID集合" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="910" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="i3vyW04hpl56Oku0v8cF-7" value="baseInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="i3vyW04hpl56Oku0v8cF-7" value="ParticipantIds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1100" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3vyW04hpl56Oku0v8cF-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1050" width="490" height="190" as="geometry" />
+          <mxGeometry x="170" y="1090" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="i3vyW04hpl56Oku0v8cF-10" value="Hash" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="170" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3vyW04hpl56Oku0v8cF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i3vyW04hpl56Oku0v8cF-7" target="i3vyW04hpl56Oku0v8cF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3vyW04hpl56Oku0v8cF-6" value="参与者的ID集合" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i3vyW04hpl56Oku0v8cF-12" value="Set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1100" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
