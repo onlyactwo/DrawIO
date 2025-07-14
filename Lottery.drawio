@@ -465,13 +465,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_h6KlXoXIHhsakf5hKVm-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1080" width="260" height="120" as="geometry" />
+          <mxGeometry x="280" y="1230" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="90" y="320" width="640" height="380" as="geometry" />
+          <mxGeometry x="90" y="470" width="640" height="380" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="90" y="145" width="660" height="145" as="geometry" />
+          <mxGeometry x="90" y="145" width="660" height="235" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-12" value="分布式锁（活动id）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="610" y="180" width="120" height="70" as="geometry" />
@@ -500,7 +500,7 @@
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wRJgcbm26dwJDgL0D8fA-2" target="wRJgcbm26dwJDgL0D8fA-53" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="590" as="targetPoint" />
+            <mxPoint x="410" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-10" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wRJgcbm26dwJDgL0D8fA-9" vertex="1" connectable="0">
@@ -509,15 +509,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-2" value="检查Redis中报名id记录数组" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="305" y="450" width="210" height="80" as="geometry" />
+          <mxGeometry x="305" y="600" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-5" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-17" target="_h6KlXoXIHhsakf5hKVm-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RuKAPE50gecp0dvNCx4L-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wRJgcbm26dwJDgL0D8fA-17" target="wRJgcbm26dwJDgL0D8fA-55">
+        <mxCell id="RuKAPE50gecp0dvNCx4L-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wRJgcbm26dwJDgL0D8fA-17" target="RuKAPE50gecp0dvNCx4L-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-17" value="查活动缓存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -546,10 +546,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-45" value="剩余名额&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="345" width="160" height="80" as="geometry" />
+          <mxGeometry x="330" y="495" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-47" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-50" y="355" width="120" height="60" as="geometry" />
+          <mxGeometry x="-50" y="505" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RuKAPE50gecp0dvNCx4L-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wRJgcbm26dwJDgL0D8fA-53" target="RuKAPE50gecp0dvNCx4L-2">
           <mxGeometry relative="1" as="geometry" />
@@ -560,16 +560,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-53" value="扣减余额、插入id数组" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="275" y="600" width="270" height="60" as="geometry" />
+          <mxGeometry x="275" y="750" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-56" value="Lua脚本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="360" width="90" height="30" as="geometry" />
+          <mxGeometry x="600" y="510" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-57" target="wRJgcbm26dwJDgL0D8fA-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-57" value="消费者接收消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="350" y="860" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wRJgcbm26dwJDgL0D8fA-61" target="wRJgcbm26dwJDgL0D8fA-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -588,13 +588,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-61" value="检查数据库的参与记录" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="295" y="950" width="230" height="80" as="geometry" />
+          <mxGeometry x="295" y="1100" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-63" value="插入/重启记录" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="650" y="960" width="150" height="60" as="geometry" />
+          <mxGeometry x="650" y="1110" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wRJgcbm26dwJDgL0D8fA-66" value="数据不一致：重新设置余额、参与者id" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="295" y="1110" width="230" height="60" as="geometry" />
+          <mxGeometry x="295" y="1260" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="_h6KlXoXIHhsakf5hKVm-1" target="wRJgcbm26dwJDgL0D8fA-24" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -626,7 +626,7 @@
           <mxGeometry x="510" y="105" width="100" height="25" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-15" value="lua脚本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="290" y="1080" width="60" height="30" as="geometry" />
+          <mxGeometry x="290" y="1230" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-16" value="用户取消参与（活动）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="1090" y="30" width="420" height="30" as="geometry" />
@@ -817,7 +817,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RuKAPE50gecp0dvNCx4L-2" value="发送异步消息" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RuKAPE50gecp0dvNCx4L-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RuKAPE50gecp0dvNCx4L-7" target="RuKAPE50gecp0dvNCx4L-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuKAPE50gecp0dvNCx4L-11" value="不满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuKAPE50gecp0dvNCx4L-10">
+          <mxGeometry x="0.0928" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RuKAPE50gecp0dvNCx4L-7" value="基本条件判断&lt;br&gt;1.有效期、状态" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="272.5" width="145" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RuKAPE50gecp0dvNCx4L-9" value="报错" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="285" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
