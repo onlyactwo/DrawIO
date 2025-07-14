@@ -827,6 +827,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RuKAPE50gecp0dvNCx4L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RuKAPE50gecp0dvNCx4L-7" target="wRJgcbm26dwJDgL0D8fA-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RuKAPE50gecp0dvNCx4L-13" value="执行lua脚本" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuKAPE50gecp0dvNCx4L-12">
+          <mxGeometry x="0.0261" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RuKAPE50gecp0dvNCx4L-7" value="基本条件判断&lt;br&gt;1.有效期、状态" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="337.5" y="272.5" width="145" height="82.5" as="geometry" />
         </mxCell>
