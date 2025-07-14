@@ -1059,7 +1059,7 @@
           <mxGeometry x="314" y="60" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QCfxuCD9nfvlUM6dMK1V-1" value="activity:info:id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="10" y="320" width="160" height="50" as="geometry" />
+          <mxGeometry x="10" y="560" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aL3ALtsYYXtyhJgEe3Lp-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aL3ALtsYYXtyhJgEe3Lp-17" target="aL3ALtsYYXtyhJgEe3Lp-23">
           <mxGeometry relative="1" as="geometry" />
@@ -1145,7 +1145,10 @@
         <mxCell id="aL3ALtsYYXtyhJgEe3Lp-39" value="status" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="240" y="920" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aL3ALtsYYXtyhJgEe3Lp-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="R7GgjePyOw3TCZ6aAZnV-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aL3ALtsYYXtyhJgEe3Lp-40" target="R7GgjePyOw3TCZ6aAZnV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aL3ALtsYYXtyhJgEe3Lp-40" value="is_enable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="240" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aL3ALtsYYXtyhJgEe3Lp-41" value="封面url" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
@@ -1162,6 +1165,9 @@
         </mxCell>
         <mxCell id="aL3ALtsYYXtyhJgEe3Lp-49" value="活动状态" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R7GgjePyOw3TCZ6aAZnV-1" value="是否启用" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
