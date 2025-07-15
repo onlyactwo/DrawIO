@@ -944,6 +944,11 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-32" target="Nk35_k-qlWwxHkbwLgX0-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7NmK3JVWsXxr15sOMExv-5" value="再进行校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-39">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-32" value="消费者接收消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="247" y="910" width="120" height="60" as="geometry" />
         </mxCell>
@@ -953,8 +958,8 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-37" value="保证每个人对于同一个选项只能投一票" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1011" y="20" width="230" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="157" y="1130" width="300" height="120" as="geometry" />
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-53" value="暂时不做处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1130" width="277" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-38" target="Nk35_k-qlWwxHkbwLgX0-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -964,37 +969,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="733" y="980" width="300" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-38" target="Nk35_k-qlWwxHkbwLgX0-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-46" value="不满足，说明出问题了，缓存和数据库记录不一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Nk35_k-qlWwxHkbwLgX0-45" vertex="1" connectable="0">
-          <mxGeometry x="-0.3067" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-45" value="不满足，投票失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-38" value="&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;1.一个选项只能投一次&lt;/span&gt;&lt;br style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;2.每人投票的次数不能大于限制&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="1010" width="214" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-41" target="Nk35_k-qlWwxHkbwLgX0-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-41" value="插入记录、增加选项投票数" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="541" y="1020" width="172" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-44" value="重新缓存选项基本信息、选项投票人id数组" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="247" y="1150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-49" value="更新Redis中缓存的投票数" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="793" y="1020" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-52" value="分布式锁（选项id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="953" y="990" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-54" value="分布式锁（选项id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="387" y="1140" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-58" value="分布式锁（活动id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="648" y="290" width="60" height="30" as="geometry" />
@@ -1007,6 +991,12 @@
         </mxCell>
         <mxCell id="7NmK3JVWsXxr15sOMExv-1" value="发送异步消息" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="354" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7NmK3JVWsXxr15sOMExv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7NmK3JVWsXxr15sOMExv-6" target="Nk35_k-qlWwxHkbwLgX0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7NmK3JVWsXxr15sOMExv-6" value="BitMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="450" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
