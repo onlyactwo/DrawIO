@@ -953,7 +953,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-29" value="标记bitmap对应的位为1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-29" value="记录该用户对该选项进行了投票&lt;br&gt;标记bitmap对应的位为1" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="308" y="570" width="211" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-32" target="Nk35_k-qlWwxHkbwLgX0-38" edge="1">
