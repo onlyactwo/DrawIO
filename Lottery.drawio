@@ -475,7 +475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NcnzSe4mDQCJ6YwGwMm6" name="活动、抽奖">
-    <mxGraphModel dx="1637" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3405" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -669,7 +669,7 @@
         <mxCell id="_h6KlXoXIHhsakf5hKVm-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_h6KlXoXIHhsakf5hKVm-28" target="_h6KlXoXIHhsakf5hKVm-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RuKAPE50gecp0dvNCx4L-21" value="不存在，返回取消失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_h6KlXoXIHhsakf5hKVm-78" vertex="1" connectable="0">
+        <mxCell id="RuKAPE50gecp0dvNCx4L-21" value="不是1，返回取消失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_h6KlXoXIHhsakf5hKVm-78" vertex="1" connectable="0">
           <mxGeometry x="-0.2505" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -677,7 +677,12 @@
         <mxCell id="RuKAPE50gecp0dvNCx4L-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_h6KlXoXIHhsakf5hKVm-28" target="RuKAPE50gecp0dvNCx4L-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_h6KlXoXIHhsakf5hKVm-28" value="检查Redis中报名id记录数组" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="PMYzMWlYeOh4aofPFD6F-2" value="是1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RuKAPE50gecp0dvNCx4L-19">
+          <mxGeometry x="-0.1026" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_h6KlXoXIHhsakf5hKVm-28" value="检查Redis中报名id记录bitmap" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1575" y="465" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-29" value="报错，未参加活动" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
@@ -818,7 +823,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RuKAPE50gecp0dvNCx4L-18" value="从id数组中删去、增加余额" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RuKAPE50gecp0dvNCx4L-18" value="将该位设置为0、增加余额" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1600" y="610" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RuKAPE50gecp0dvNCx4L-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RuKAPE50gecp0dvNCx4L-22" target="RuKAPE50gecp0dvNCx4L-27" edge="1">
