@@ -1016,21 +1016,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zsvHdeSQC27q7zJUJnAd" name="点赞">
-    <mxGraphModel dx="1657" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zg8JR83PqPXKrmcq0_dD-1" value="点赞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="340" y="50" width="110" height="30" as="geometry" />
+        <mxCell id="Zg8JR83PqPXKrmcq0_dD-1" value="点赞，取消点赞" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
+          <mxGeometry x="274" y="50" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rcw3TStqrlcm3F9mzln2-1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;PingFang SC&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(243, 243, 243); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;现在进行点赞功能的设计，我现在的想法是&#xa;1.在Redis里面，设置一个bitmap，用来标记为该活动点赞的用户的id&#xa;2.再维护一个“脏set”用来维护最近的点赞/取消点赞的操作，且保证这个脏set里面，每个用户最多出现一次（因为如果操作两次的话，就相当于没有操作，例如，先点赞，这时候bitmap标记为1，查找脏set有没有记录，有的话就删除，没有的话则标记为“businessId：1”，这个标识，如果用户再取消，这时bitmap标记为0，查找脏set有没有记录，有的话就删除，没有的话则标记为“businessId：0”），并且可以去标识，该操作，到底是点赞，还是取消，或者不标识也可以，反正是进行对立操作（数据库没有的话，就是增加，有的话就是取消，但是可能会出错），然后定时对这个脏set进行处理、清空即可&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="200" width="560" height="240" as="geometry" />
+        <mxCell id="rcw3TStqrlcm3F9mzln2-2" value="用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rcw3TStqrlcm3F9mzln2-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="134" y="260" width="560" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="rcw3TStqrlcm3F9mzln2-4" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="CKd0yjursicHJNoiXH5I" name="Redis设计">
-    <mxGraphModel dx="2403" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2245" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
