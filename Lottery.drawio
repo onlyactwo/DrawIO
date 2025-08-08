@@ -338,7 +338,7 @@
         <mxCell id="jLYSep62HCq5rM00ZB89-1" value="用户ID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-680" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jLYSep62HCq5rM00ZB89-4" value="生成算法：雪花算法，控制到10位" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="1" vertex="1">
+        <mxCell id="jLYSep62HCq5rM00ZB89-4" value="生成算法：雪花算法，控制到8位" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-470" y="120" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NZIP8W_obkc7aCG5idmn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NZIP8W_obkc7aCG5idmn-1" target="NZIP8W_obkc7aCG5idmn-2" edge="1">
