@@ -1679,7 +1679,7 @@
         <mxCell id="i3vyW04hpl56Oku0v8cF-12" value="BitMap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="170" y="1070" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TAOMBAgpDj2sMlopcKze-2" value="remaings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="TAOMBAgpDj2sMlopcKze-2" value="remainingCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-190" y="1220" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TAOMBAgpDj2sMlopcKze-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
