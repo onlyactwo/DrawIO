@@ -1530,6 +1530,11 @@
         <mxCell id="L69y67CZ7of2oLJO3eNc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="e70N0fjaRXVKGCZ5xOUs-32" target="L69y67CZ7of2oLJO3eNc-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-55" value="查询封面元数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L69y67CZ7of2oLJO3eNc-21">
+          <mxGeometry x="0.7368" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e70N0fjaRXVKGCZ5xOUs-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-380" y="2305" width="270" height="335" as="geometry" />
         </mxCell>
