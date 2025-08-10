@@ -1723,6 +1723,14 @@
             <mxPoint x="1430" y="2251.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kppUAitqc3ixttk9DJi7-7" target="VLhTlmQvgcLy8mZfuh65-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="630" />
+              <mxPoint x="1360" y="1135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kppUAitqc3ixttk9DJi7-7" value="activity:{id}:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1130" y="605" width="160" height="50" as="geometry" />
         </mxCell>
@@ -2225,6 +2233,21 @@
         </mxCell>
         <mxCell id="VLhTlmQvgcLy8mZfuh65-63" value="抽奖专属" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-64" value="remainingCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1110" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1100" width="490" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-66" value="剩余名额" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1954" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-67" value="String" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VLhTlmQvgcLy8mZfuh65-64" target="VLhTlmQvgcLy8mZfuh65-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
