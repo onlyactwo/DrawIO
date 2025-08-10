@@ -1511,7 +1511,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKd0yjursicHJNoiXH5I" name="Redis设计">
-    <mxGraphModel dx="2870" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3131" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1661,7 +1661,7 @@
         <mxCell id="i3vyW04hpl56Oku0v8cF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="i3vyW04hpl56Oku0v8cF-1" target="g9SD_NuLVpswSmovvRsM-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i3vyW04hpl56Oku0v8cF-7" value="participantId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="i3vyW04hpl56Oku0v8cF-7" value="participantBusinessId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-190" y="1070" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i3vyW04hpl56Oku0v8cF-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -1864,7 +1864,7 @@
         <mxCell id="Bg2G42BGmd9Ybv9E55sA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Bg2G42BGmd9Ybv9E55sA-30" target="Bg2G42BGmd9Ybv9E55sA-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Bg2G42BGmd9Ybv9E55sA-30" value="voterIds" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="Bg2G42BGmd9Ybv9E55sA-30" value="voterBusinessId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1935" y="1490" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Bg2G42BGmd9Ybv9E55sA-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -1925,7 +1925,7 @@
         <mxCell id="_jkX3fcFHnQDEm3_4kts-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_jkX3fcFHnQDEm3_4kts-14" target="_jkX3fcFHnQDEm3_4kts-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_jkX3fcFHnQDEm3_4kts-14" value="operationBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="_jkX3fcFHnQDEm3_4kts-14" value="operatorBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="1593.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9x9wiv80wvDA60AcFzDG-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="9x9wiv80wvDA60AcFzDG-17" target="9x9wiv80wvDA60AcFzDG-25" edge="1">
@@ -1974,7 +1974,7 @@
         <mxCell id="9x9wiv80wvDA60AcFzDG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9x9wiv80wvDA60AcFzDG-27" target="9x9wiv80wvDA60AcFzDG-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9x9wiv80wvDA60AcFzDG-27" value="operationBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="9x9wiv80wvDA60AcFzDG-27" value="operatorBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="1885" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9x9wiv80wvDA60AcFzDG-29" value="标记操作记录Id：“businessID”" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" parent="1" vertex="1">
@@ -2146,7 +2146,7 @@
         <mxCell id="VLhTlmQvgcLy8mZfuh65-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLhTlmQvgcLy8mZfuh65-38" target="VLhTlmQvgcLy8mZfuh65-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VLhTlmQvgcLy8mZfuh65-38" value="operationBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-38" value="operatorBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1760" y="1982.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VLhTlmQvgcLy8mZfuh65-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLhTlmQvgcLy8mZfuh65-41" target="VLhTlmQvgcLy8mZfuh65-49">
@@ -2195,7 +2195,7 @@
         <mxCell id="VLhTlmQvgcLy8mZfuh65-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VLhTlmQvgcLy8mZfuh65-51" target="VLhTlmQvgcLy8mZfuh65-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VLhTlmQvgcLy8mZfuh65-51" value="operationBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VLhTlmQvgcLy8mZfuh65-51" value="operatorBusinessId" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1760" y="2273.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VLhTlmQvgcLy8mZfuh65-52" value="标记操作记录Id：“businessID”" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=0;" vertex="1" parent="1">
