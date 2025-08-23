@@ -1516,7 +1516,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mUTOB9o7KCl7_Vg9IjCX-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="44" y="190" width="760" height="540" as="geometry" />
+          <mxGeometry y="190" width="870" height="540" as="geometry" />
         </mxCell>
         <mxCell id="mUTOB9o7KCl7_Vg9IjCX-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="114" y="390" width="620" height="290" as="geometry" />
@@ -1525,7 +1525,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mUTOB9o7KCl7_Vg9IjCX-1" value="活动信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="-250" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mUTOB9o7KCl7_Vg9IjCX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mUTOB9o7KCl7_Vg9IjCX-2" target="mUTOB9o7KCl7_Vg9IjCX-6">
           <mxGeometry relative="1" as="geometry" />
