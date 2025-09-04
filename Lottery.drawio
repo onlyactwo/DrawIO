@@ -1373,7 +1373,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="315" width="500" height="270" as="geometry" />
+          <mxGeometry x="-80" y="315" width="500" height="325" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uLWHNCFIj9qlQAartZH0-1" target="1x2jBA2-0Ix3cQJ5Z4GZ-15">
           <mxGeometry relative="1" as="geometry" />
@@ -1385,13 +1385,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uLWHNCFIj9qlQAartZH0-12" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="250" y="620" width="60" height="160" as="geometry" />
+          <mxGeometry x="250" y="730" width="60" height="160" as="geometry" />
         </mxCell>
         <mxCell id="uLWHNCFIj9qlQAartZH0-14" value="消费者清算活动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="670" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-1" value="消息队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="685" width="60" height="30" as="geometry" />
+          <mxGeometry x="250" y="795" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1x2jBA2-0Ix3cQJ5Z4GZ-9" target="1x2jBA2-0Ix3cQJ5Z4GZ-25">
           <mxGeometry relative="1" as="geometry" />
@@ -1419,7 +1419,7 @@
           <mxGeometry x="130" y="340" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-19" value="数据库结束消息表" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-12.5" y="660" width="115" height="80" as="geometry" />
+          <mxGeometry x="-12.5" y="770" width="115" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1x2jBA2-0Ix3cQJ5Z4GZ-13" target="1x2jBA2-0Ix3cQJ5Z4GZ-19">
           <mxGeometry relative="1" as="geometry" />
@@ -1449,8 +1449,8 @@
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-36" value="线上活动更新时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-380" y="485" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-40" value="定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="950" width="540" height="60" as="geometry" />
+        <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-40" value="定时任务（每天扫描）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1060" width="540" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.398;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1x2jBA2-0Ix3cQJ5Z4GZ-19" target="1x2jBA2-0Ix3cQJ5Z4GZ-40">
           <mxGeometry relative="1" as="geometry" />
