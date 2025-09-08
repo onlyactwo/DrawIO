@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tlpnSe8tqU-wFlHpjQak" name="活动结束消息与接收">
-    <mxGraphModel dx="3131" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3534" dy="2205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1505,35 +1505,8 @@
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-56" value="情况表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-990" y="285" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lhhmsiXm-UyS4xz-aRW8-1" target="lhhmsiXm-UyS4xz-aRW8-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lhhmsiXm-UyS4xz-aRW8-1" target="lhhmsiXm-UyS4xz-aRW8-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-1" value="ActivityEndHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="-220" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="lhhmsiXm-UyS4xz-aRW8-2" value="ActivityEndMessageHandler&lt;br&gt;活动结束消息处理器&lt;br&gt;1.在上线/线上更新结束时间以后，做活动结束消息的发送处理&lt;br&gt;2.在活动结束时，做结束消息的校验" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-710" y="-80" width="380" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-4" value="Normal&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ActivityEndHandler&lt;br&gt;普通活动清算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-250" y="-80" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-5" value="VoteActivityEnd&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;br&gt;投票活动清算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-80" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=0.131;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="lhhmsiXm-UyS4xz-aRW8-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint y="-150" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint y="-120" />
-              <mxPoint x="138" y="-120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lhhmsiXm-UyS4xz-aRW8-8" value="Lottery&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ActivityEnd&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;抽奖活动清算&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="-80" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-25" target="VWd4X9wWflAmcNfUx5mO-33">
           <mxGeometry relative="1" as="geometry" />
@@ -1582,30 +1555,73 @@
         <mxCell id="VWd4X9wWflAmcNfUx5mO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-44" target="VWd4X9wWflAmcNfUx5mO-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1670" y="750" />
-              <mxPoint x="1935" y="750" />
+              <mxPoint x="1870" y="770" />
+              <mxPoint x="2135" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-44" value="ActivityEndHandler" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="650" width="120" height="60" as="geometry" />
+          <mxGeometry x="1810" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-46" value="Normal&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ActivityEndHandler&lt;br&gt;普通活动清算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="790" width="190" height="60" as="geometry" />
+          <mxGeometry x="1560" y="810" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-47" value="VoteActivityEnd&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;br&gt;投票活动清算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1575" y="790" width="190" height="60" as="geometry" />
+          <mxGeometry x="1775" y="815" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.514;exitY=0.131;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="VWd4X9wWflAmcNfUx5mO-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1670" y="720" as="sourcePoint" />
+            <mxPoint x="1870" y="740" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1670" y="790" />
+              <mxPoint x="1870" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-49" value="Lottery&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ActivityEnd&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;抽奖活动清算&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="790" width="190" height="60" as="geometry" />
+          <mxGeometry x="2040" y="810" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-51" target="VWd4X9wWflAmcNfUx5mO-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-51" value="ActivityEndValidityHandler&lt;br&gt;活动结束清算条件" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="810" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-55" target="VWd4X9wWflAmcNfUx5mO-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-55" target="VWd4X9wWflAmcNfUx5mO-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="-120" />
+              <mxPoint x="495" y="-120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-55" value="ActivityEndHandler" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-56" value="Normal&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ActivityEndHandler&lt;br&gt;普通活动清算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-57" value="VoteActivityEnd&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;br&gt;投票活动清算&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-75" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.514;exitY=0.131;exitDx=0;exitDy=0;exitPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" target="VWd4X9wWflAmcNfUx5mO-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="-150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-59" value="Lottery&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ActivityEnd&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Handler&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;抽奖活动清算&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-80" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-61" target="VWd4X9wWflAmcNfUx5mO-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-61" value="ActivityEndValidityHandler&lt;br&gt;活动结束清算条件" style="rounded=0;whiteSpace=wrap;html=1;direction=east;rotation=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-80" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
