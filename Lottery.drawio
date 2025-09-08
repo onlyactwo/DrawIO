@@ -1368,7 +1368,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tlpnSe8tqU-wFlHpjQak" name="活动结束消息与接收">
-    <mxGraphModel dx="2052" dy="1388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3131" dy="1983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1384,7 +1384,7 @@
         <mxCell id="uLWHNCFIj9qlQAartZH0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uLWHNCFIj9qlQAartZH0-12" target="uLWHNCFIj9qlQAartZH0-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VWd4X9wWflAmcNfUx5mO-1" value="传递" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uLWHNCFIj9qlQAartZH0-15">
+        <mxCell id="VWd4X9wWflAmcNfUx5mO-1" value="传递，&lt;span style=&quot;color: rgb(229, 192, 123); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt; background-color: rgb(40, 44, 52);&quot;&gt;ActivityEndMessageDTO&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uLWHNCFIj9qlQAartZH0-15">
           <mxGeometry x="-0.1657" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1394,11 +1394,11 @@
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uLWHNCFIj9qlQAartZH0-14" target="VWd4X9wWflAmcNfUx5mO-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="627" y="810" as="targetPoint" />
+            <mxPoint x="837" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uLWHNCFIj9qlQAartZH0-14" value="消费者接收" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-1" value="消息队列" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="795" width="60" height="30" as="geometry" />
@@ -1491,7 +1491,7 @@
         <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="1x2jBA2-0Ix3cQJ5Z4GZ-40" target="uLWHNCFIj9qlQAartZH0-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-50" value="发送消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1x2jBA2-0Ix3cQJ5Z4GZ-49" vertex="1" connectable="0">
+        <mxCell id="1x2jBA2-0Ix3cQJ5Z4GZ-50" value="发送消息，&lt;span style=&quot;color: rgb(229, 192, 123); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 10.5pt; background-color: rgb(40, 44, 52);&quot;&gt;ActivityEndMessageDTO&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1x2jBA2-0Ix3cQJ5Z4GZ-49" vertex="1" connectable="0">
           <mxGeometry x="-0.0502" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1544,7 +1544,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-25" value="清算条件判断" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="700" width="140" height="160" as="geometry">
+          <mxGeometry x="820" y="700" width="140" height="160" as="geometry">
             <mxRectangle x="860" y="730" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1561,14 +1561,14 @@
           <mxGeometry y="130" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-33" value="不做清算" style="whiteSpace=wrap;html=1;fontStyle=0;startSize=30;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="830" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-37" value="根据活动类型，组织责任链，做清算" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="780" width="220" height="60" as="geometry" />
+          <mxGeometry x="1000" y="780" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWd4X9wWflAmcNfUx5mO-28" target="VWd4X9wWflAmcNfUx5mO-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="810" as="targetPoint" />
+            <mxPoint x="1030" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VWd4X9wWflAmcNfUx5mO-40" value="满足" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWd4X9wWflAmcNfUx5mO-39">
