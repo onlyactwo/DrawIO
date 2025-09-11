@@ -1849,9 +1849,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WFEUYkBdGFQ5ETAXpIDM-9" value="Lua脚本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="135" y="340" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="WFEUYkBdGFQ5ETAXpIDM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WFEUYkBdGFQ5ETAXpIDM-13" target="WFEUYkBdGFQ5ETAXpIDM-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
