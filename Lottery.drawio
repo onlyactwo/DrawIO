@@ -1597,14 +1597,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VnnQeaFldTDwhN4YrL9S" name="投票">
-    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="20" y="170" width="850" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="4mmd4107s5e9bmfqME35-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-55" target="4mmd4107s5e9bmfqME35-4">
+        <mxCell id="4mmd4107s5e9bmfqME35-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-55" target="4mmd4107s5e9bmfqME35-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -1702,10 +1702,10 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-26" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="462.5" width="64" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="7NmK3JVWsXxr15sOMExv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nk35_k-qlWwxHkbwLgX0-29" target="7NmK3JVWsXxr15sOMExv-1">
+        <mxCell id="7NmK3JVWsXxr15sOMExv-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-29" target="7NmK3JVWsXxr15sOMExv-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7NmK3JVWsXxr15sOMExv-3" value="返回投票成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7NmK3JVWsXxr15sOMExv-2">
+        <mxCell id="7NmK3JVWsXxr15sOMExv-3" value="返回投票成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7NmK3JVWsXxr15sOMExv-2" vertex="1" connectable="0">
           <mxGeometry x="-0.0432" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1716,7 +1716,7 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nk35_k-qlWwxHkbwLgX0-32" target="Nk35_k-qlWwxHkbwLgX0-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7NmK3JVWsXxr15sOMExv-5" value="再进行校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nk35_k-qlWwxHkbwLgX0-39">
+        <mxCell id="7NmK3JVWsXxr15sOMExv-5" value="再进行校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Nk35_k-qlWwxHkbwLgX0-39" vertex="1" connectable="0">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1724,7 +1724,7 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-32" value="消费者接收消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="247" y="910" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nk35_k-qlWwxHkbwLgX0-35" value="lua脚本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Nk35_k-qlWwxHkbwLgX0-35" value="分布式锁用户id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="420" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-37" value="保证每个人对于同一个选项只能投一票" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1755,13 +1755,13 @@
         <mxCell id="Nk35_k-qlWwxHkbwLgX0-58" value="分布式锁（活动id）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="648" y="290" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4mmd4107s5e9bmfqME35-4" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4mmd4107s5e9bmfqME35-4" value="报错" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="624" y="25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7NmK3JVWsXxr15sOMExv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7NmK3JVWsXxr15sOMExv-1" target="Nk35_k-qlWwxHkbwLgX0-32">
+        <mxCell id="7NmK3JVWsXxr15sOMExv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7NmK3JVWsXxr15sOMExv-1" target="Nk35_k-qlWwxHkbwLgX0-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7NmK3JVWsXxr15sOMExv-1" value="发送异步消息" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7NmK3JVWsXxr15sOMExv-1" value="发送异步消息" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="354" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
