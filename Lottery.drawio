@@ -1224,11 +1224,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NcnzSe4mDQCJ6YwGwMm6" name="活动、抽奖：报名/取消">
-    <mxGraphModel dx="2550" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1861" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k0F-QEb4Fv0EwL0l_CWa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="k0F-QEb4Fv0EwL0l_CWa-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-140" y="135" width="1090" height="745" as="geometry" />
         </mxCell>
         <mxCell id="_h6KlXoXIHhsakf5hKVm-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -1592,9 +1592,6 @@
         </mxCell>
         <mxCell id="PMYzMWlYeOh4aofPFD6F-1" value="lua脚本" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="1230" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="k0F-QEb4Fv0EwL0l_CWa-2" value="分布式锁锁用户id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;" vertex="1" parent="1">
-          <mxGeometry x="827" y="460" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
