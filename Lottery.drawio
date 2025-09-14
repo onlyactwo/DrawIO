@@ -474,7 +474,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKd0yjursicHJNoiXH5I" name="Redis设计">
-    <mxGraphModel dx="2043" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1241" dy="228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1298,8 +1298,20 @@
         <mxCell id="cRkxMLQEkq2VhOfHVH2I-21" value="用户信息缓存&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=31;" vertex="1" parent="1">
           <mxGeometry x="2600" y="2818.75" width="270" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cRkxMLQEkq2VhOfHVH2I-23" target="cRkxMLQEkq2VhOfHVH2I-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cRkxMLQEkq2VhOfHVH2I-23" value="likedActivity" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2610" y="2910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-25" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="2910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-27" value="zset" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="2908" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-28" value="点过赞的活动id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2805" y="2935" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
