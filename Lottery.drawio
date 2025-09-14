@@ -474,7 +474,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKd0yjursicHJNoiXH5I" name="Redis设计">
-    <mxGraphModel dx="1689" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2550" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1189,41 +1189,44 @@
         <mxCell id="VLhTlmQvgcLy8mZfuh65-63" value="抽奖专属" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="710" y="940" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-2" value="活动首页轮播图缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=31;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-2" value="活动首页轮播图缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=31;" parent="1" vertex="1">
           <mxGeometry x="180" y="3580" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kufKhnREF8n9lyd3gbX-3" target="6kufKhnREF8n9lyd3gbX-4">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6kufKhnREF8n9lyd3gbX-3" target="6kufKhnREF8n9lyd3gbX-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-3" value="uniapp:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-3" value="uniapp:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="3850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6kufKhnREF8n9lyd3gbX-4" target="6kufKhnREF8n9lyd3gbX-6">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6kufKhnREF8n9lyd3gbX-4" target="6kufKhnREF8n9lyd3gbX-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-4" value="swiperImg" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-4" value="swiperImg" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="3750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-6" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-6" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="490" y="3660" width="330" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-8" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-8" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="510" y="3690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-9" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-9" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="510" y="3780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-10" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-10" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="650" y="3690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-11" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-11" value="id&lt;br&gt;media_url" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="650" y="3780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-12" value="Set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-12" value="Set" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="3660" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6kufKhnREF8n9lyd3gbX-13" value="Json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6kufKhnREF8n9lyd3gbX-13" value="Json" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="3690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-1" value="活动奖品缓存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=31;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="3620" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
