@@ -474,7 +474,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CKd0yjursicHJNoiXH5I" name="Redis设计">
-    <mxGraphModel dx="1812" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2043" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1283,6 +1283,23 @@
         </mxCell>
         <mxCell id="cRkxMLQEkq2VhOfHVH2I-18" value="Json&lt;br&gt;id+name+mediaUrl" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1560" y="3990" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cRkxMLQEkq2VhOfHVH2I-20" target="cRkxMLQEkq2VhOfHVH2I-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="3050" />
+              <mxPoint x="2580" y="2940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-20" value="user:{businessId}:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="3020.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-21" value="用户信息缓存&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=31;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="2818.75" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cRkxMLQEkq2VhOfHVH2I-23" value="likedActivity" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="2910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
